@@ -49,7 +49,7 @@ void loop() {
       else if(digitalRead(mode2)==1){
           Stepselected(116);
       }
-      else if(digitalRead(mode3)==1{
+      else if(digitalRead(mode3)==1){
           Stepselected(145);
       }
       else{
