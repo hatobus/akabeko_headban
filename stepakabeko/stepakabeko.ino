@@ -47,7 +47,7 @@ void loop() {
       Serial.print("Choose:");
       Serial.println(user_input);
       if (user_input =='1'){
-          Stepselected(80);
+          Stepselected(20);
       }
       else if(user_input =='2'){
           Stepselected(116);
@@ -101,9 +101,9 @@ void Stepselected(int select_bpm)
     for(x= 1; x<100; x++)  //Loop the forward stepping enough times for motion to be visible
     {
       digitalWrite(stp,HIGH); //Trigger one step forward
-      delayMicroseconds(650);
+      delayMicroseconds(1000);
       digitalWrite(stp,LOW); //Pull step pin low so it can be triggered again
-      delayMicroseconds(650);
+      delayMicroseconds(1000);
       t=t+2*d;
     }
 
