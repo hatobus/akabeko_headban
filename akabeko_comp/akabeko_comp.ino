@@ -35,7 +35,8 @@ void setup() {
   resetEDPins(); //Set step, direction, microstep and enable pins to default states
   Serial.begin(9600); //Open Serial connection for debugging
   Serial.println("Begin motor control");
-  Serial.println(); 
+  Serial.println();
+  help();  
 }
 
 void loop() {
@@ -48,12 +49,12 @@ void loop() {
       else if(digitalRead(mode2)==1){
           Stepselected(116);
       }
-      else if(digitalRead(mode3)==1){
+      else if(digitalRead(mode3)==1{
           Stepselected(145);
       }
       else{
         Serial.println("0");
-//        help();
+        help();
       }
   }  
 }
