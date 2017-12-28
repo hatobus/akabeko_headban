@@ -40,10 +40,12 @@ void setup() {
 }
 void loop() {
   digitalWrite(EN, LOW); //Pull enable pin low to allow motor control
-  Stepselected(80);
-  delay(3000);
-  Stepselected(40);
-  delay(3000);  
+  Stepselected(140);
+//  delay(300000);
+
+  delay(10000);
+//  Stepselected(40);
+//  delay(3000);  
 }
 void loop77() {
   // put your main code here, to run repeatedly:
