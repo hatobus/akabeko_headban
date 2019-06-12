@@ -30,10 +30,8 @@
  - DC 5V （そこらへんのジャンクショップで買って来た)
 
  ### 配線図
- ![Akabeko_bord.jpg](./img/Akabeko_bord.jpg)
+ ![Akabeko_comp.png](./img/Akabeko_comp.png)
 
-  ### 回路図
- ![Akabeko_circuit.jpg](./img/Akabeko_circuit.jpg)
 
 ## 作成中のメモ
 
