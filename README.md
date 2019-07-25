@@ -50,8 +50,3 @@
  - ネオロック74 (akabeko3145.wav)
  - BPM == 145
 
-## BPM解析
-プロ (-> tspider0176 ) が作ったレポを使いました．
-ありがとうございます．
-
-[ここ](https://github.com/tspider0176/bpm-analyzer)です
