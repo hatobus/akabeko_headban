@@ -1,7 +1,7 @@
 [Unit]
 Description = HeadBanging akabeko
 
-[Seivice]
+[Service]
 ExecStart = /opt/akabeko/connect_Raspi/comp.py
 Restart = always
 Type = simple
